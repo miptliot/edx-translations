@@ -44,7 +44,7 @@ metadata:
         \end{edXscript}
 
        Какой язык программирования является самым лучшим из существующих на сегодняшний день?
-	   Можете ввести ответ большими или маленькими буквами, с кавычками или без.
+       Можете ввести ответ большими или маленькими буквами, с кавычками или без.
 
         \edXabox{type="custom" cfn='test_str' expect='python' hintfn='hint_fn'}
     markdown: !!null
@@ -70,13 +70,13 @@ data: |
       hint = ''
       if 'java' in ans:
              hint = 'пригодно только для питья'
-          elif 'perl' in ans:
+      elif 'perl' in ans:
              hint = 'не очень богат'
-          elif 'pascal' in ans:
+      elif 'pascal' in ans:
              hint = 'это язык для битников'
-          elif 'fortran' in ans:
+      elif 'fortran' in ans:
              hint = 'в старые добрые времена'
-          elif 'clu' in ans:
+      elif 'clu' in ans:
              hint = 'помните про инварианты'
       if hint:
         hint = "&lt;font color='blue'&gt;Hint: {0}&lt;/font&gt;".format(hint)

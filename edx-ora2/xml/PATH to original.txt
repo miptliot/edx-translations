@@ -1,0 +1,1 @@
+openassessment\xblock\static\xml\
